@@ -1,0 +1,5 @@
+# Do not edit the config-version
+config-version: 1.0
+name: parcelname
+description: null
+permission: buildingparcel.player.group.default

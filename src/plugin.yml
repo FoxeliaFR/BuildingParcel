@@ -1,0 +1,15 @@
+name: BuildingParcel
+version: 1.0.0
+description: Crée des parcelles et pose des bâtiments
+authors: [Foxelia, Zarinoow]
+main: fr.foxelia.buildingparcel.BuildingParcel
+loadbefore: [Skript]
+depend: [Vault, WorldEdit]
+api-version: 1.18
+commands:
+  parcel:
+    description: Gère les parcelles
+    permissions: buildingparcel.player.parcel
+permissions:
+  buildingparcel.admin:
+    default: op
